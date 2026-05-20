@@ -1,6 +1,6 @@
 name: smart_otp_field_plus
 description: A smart and customizable Flutter OTP input field with autofill, paste support, resend timer, obscure text, backspace handling, and flexible theming.
-version: 1.0.0
+version: 1.0.1
 
 homepage: https://github.com/flutterbysunny/smart_otp_field
 repository: https://github.com/flutterbysunny/smart_otp_field
