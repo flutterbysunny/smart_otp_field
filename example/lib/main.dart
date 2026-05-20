@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_otp_field/smart_otp_field.dart';
+import 'package:smart_otp_field_plus/smart_otp_field.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              SmartOtpField(
+              SmartOtpFieldPlus(
                 length: 6,
                 obscureText: false,
                 theme: OtpTheme(

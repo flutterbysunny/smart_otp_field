@@ -191,13 +191,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  smart_otp_field:
+  smart_otp_field_plus:
     dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "1.0.0"
   sms_autofill:
     dependency: transitive
     description:

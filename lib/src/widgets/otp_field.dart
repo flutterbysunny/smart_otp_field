@@ -3,7 +3,7 @@ import '../controller/otp_controller.dart';
 import '../theme/otp_theme.dart';
 import 'otp_box.dart';
 
-class SmartOtpField extends StatefulWidget {
+class SmartOtpFieldPlus extends StatefulWidget {
   final int length;
   final OtpController? controller;
   final OtpTheme theme;
@@ -16,7 +16,7 @@ class SmartOtpField extends StatefulWidget {
   /// Character to show when obscured
   final String obscuringCharacter;
 
-  const SmartOtpField({
+  const SmartOtpFieldPlus({
     super.key,
     this.length = 6,
     this.controller,
@@ -28,10 +28,10 @@ class SmartOtpField extends StatefulWidget {
   });
 
   @override
-  State<SmartOtpField> createState() => _SmartOtpFieldState();
+  State<SmartOtpFieldPlus> createState() => _SmartOtpFieldPlusState();
 }
 
-class _SmartOtpFieldState extends State<SmartOtpField> {
+class _SmartOtpFieldPlusState extends State<SmartOtpFieldPlus> {
   late OtpController otpController;
   late bool _internalController;
 

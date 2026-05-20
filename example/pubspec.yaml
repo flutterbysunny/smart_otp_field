@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  smart_otp_field:
+  smart_otp_field_plus:
     # When depending on this package from a real application you should use:
     #   smart_otp_field: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
