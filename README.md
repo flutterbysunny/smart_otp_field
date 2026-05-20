@@ -45,7 +45,7 @@ flutter pub get
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:smart_otp_field/smart_otp_field.dart';
+import 'package:smart_otp_field/smart_otp_field_plus.dart';
 
 class OtpScreen extends StatelessWidget {
   OtpScreen({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_otp_field_plus/smart_otp_field.dart';
+import 'package:smart_otp_field_plus/smart_otp_field_plus.dart';
 
 void main() {
   runApp(const MyApp());
