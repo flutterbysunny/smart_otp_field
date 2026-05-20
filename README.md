@@ -29,7 +29,7 @@ Add dependency in `pubspec.yaml`
 
 ```yaml
 dependencies:
-  smart_otp_field: ^0.0.1
+  smart_otp_field: ^1.0.0
 ```
 
 Run:
