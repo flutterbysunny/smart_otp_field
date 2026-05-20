@@ -29,7 +29,7 @@ Add dependency in `pubspec.yaml`
 
 ```yaml
 dependencies:
-  smart_otp_field_plus: ^1.0.0
+  smart_otp_field_plus: ^1.0.1
 ```
 
 Run:
@@ -45,7 +45,7 @@ flutter pub get
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:smart_otp_field/smart_otp_field_plus.dart';
+import 'package:smart_otp_field_plus/smart_otp_field_plus.dart';
 
 class OtpScreen extends StatelessWidget {
   OtpScreen({super.key});
@@ -60,7 +60,7 @@ class OtpScreen extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            SmartOtpField(
+            SmartOtpFieldPlus(
               controller: controller,
               length: 6,
               onCompleted: (otp) {

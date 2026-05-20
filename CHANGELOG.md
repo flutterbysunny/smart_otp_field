@@ -14,3 +14,9 @@
 - Android & iOS autofill support
 - Obscure OTP support
 - Flexible theming support
+
+## 1.0.1
+
+- Improved documentation
+- Fixed README examples
+- Added API documentation comments
